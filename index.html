@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home Page</title>
+  <style>
+  	body, html {
+  background-image: url("https://blogrebellive.files.wordpress.com/2013/09/grey-background-for-site11.jpg");
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  position: fixed;
+  left: 25%;
+  z-index: 999;
+  max-width: 700px;
+  width: 100%;
+  background-color: red;
+  border: 8px;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: green;
+  height: 150px;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  display: none;
+}
+
+.exit {
+  float: right;
+  border: 1px solid black;
+  width: 50px;
+  border-radius: 30% 40%;
+}
+
+.banner-txt {
+  margin: 0;
+}
+
+h4 {
+   margin-top: 40px;
+   letter-spacing: 3px;
+   text-align: center;
+}
+
+.container {
+  margin: 0;
+}
+
+header {
+  height: 125px;
+  width: 100%;
+  background-color: black;
+}
+
+a[href="file:///Users/ambergriffin/Desktop/Revature%20/Home%20Page.html"] { 
+  float: left; 
+  margin-top: 0;
+}
+
+ header a {
+  float: right;
+  margin: 50px;
+}
+
+.head {
+  margin: 0;
+}
+
+div > img {
+  float: left;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: grey;
+}
+
+.center-container {
+  margin-left: 0;
+  height: 500px;
+  
+}
+.center-pic {
+  float: right;
+  margin-top: -15px;
+  height: 300px;
+}
+
+.recipe-txt {
+  margin-top: 7cm;
+  position: absolute;
+   left: 20%;
+   top: 15%;
+  width: 30%;
+  text-align: left;
+  text-shadow: 3px 3px 10px white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.zipcode {
+  padding: 0 20px;
+}
+
+form {
+  margin: 25px 0;
+}
+
+.fieldbox {
+  margin-left: 25px;
+}
+
+input {
+  width: 25%;
+  font-size: 20px;
+}
+
+hr {
+  width: 80%;
+}
+
+footer {
+  margin-top: 50px;
+  height: 60px;
+  text-align: center;
+  color: red;
+}
+
+table {
+  margin-left: 250px;
+  width: 70%;
+  text-align: center;
+  padding: 0;
+}
+
+td {
+  text-align: center;
+}
+
+.copyright {
+  font-size: 12px;
+}
+  </style>
+</head>
+
+<body>
+  <div class="banner" id="top-banner">
+    <input type="button" class="exit" value="x" onclick="bannerHide()">
+    <div class="banner-txt">
+      <h4>Delicious meals all the time for you, your family, and friends! Now partnering with over 50 local businesses to provide you the best options for lunch, and dinner! Click<a href="http://www.facebook.com">Here</a>to register!</h4>
+    </div>
+  </div>
+
+  <div class="container">
+    <header>
+      <div class="head">
+        <a href="file:///Users/ambergriffin/Desktop/Revature%20/Home%20Page.html"><img class= "logo" src="http://res.cloudinary.com/duckduckmoo/image/upload/v1502562975/logo_jv1tf9.png" alt="company logo">
+        </a>
+      </div>
+      <a href="">Sign-in/Register</a>
+    </header>
+
+    <div class="center-container">
+      <div class="center-pic">
+        <img src="https://www.ragozzino.com/wp-content/uploads/2016/01/entrees.jpg" alt="sweet sour chicken on bed of rice" alt="asian chicken and rice" width="1550" height="500">
+      </div>
+    </div>
+        <div class="recipe-txt">
+          <p>Pour 2-3 tbsp oil into a pan on the stove and heat on medium. Add diced raw chicken and stir as needed while cooking. While chicken is cooking, make the sauce by combining all 4 of the ingredients into a small bowl and mixing with a whisk. Set
+          aside. When chicken is done cooking; add green peppers, red peppers and orange peppers. Cook until veggies start to soften a little. Pour the sauce on the chicken/vegetable mixture and cook for an additional 4-5 minutes. Cook rice as per package
+            instructions in the microwave. Serve together on a plate and enjoy!</p>
+            </div>
+
+    <div class="zipcode">
+      <h1>Find a driver near you!</h1>
+      <p>Type in your zipcode below and click Go! to find a driver near you</p>
+    </div>
+
+    <form action="/action_page.php">
+      <div class="fieldbox">
+        <input id="zipcode" name="address-4" type="number" required/>
+        <button id="submit" type="submit" value="Submit">Go!</button>
+      </div>
+    </form>
+
+    <hr>
+    
+    <footer>
+        <table>
+          <tr>
+            <td><a href="">Home</a></td>
+            <td><a href="">Privacy Policy</a></td>
+            <td><a href="">Featured Restaurant</td>
+            </tr>
+            <tr>
+              <td><a href="file:///Users/ambergriffin/Desktop/Revature%20/register.html">Register</a></td>
+            <td class="copyright">&copy 2015. All rights reserved></td>
+            <td><a href="">Terms & Conditions</a></td>
+          </tr>
+        </table>
+    </footer>
+
+
+
+</html>
